@@ -23,11 +23,6 @@ jobs:
         uses: actions/setup-dotnet@v3.4.2
         with:
           dotnet-version: 9.0.305
-
-      - name: Exibir conteudo do README.md gerado para o package
-        run: |
-          cd ${{ env.PATH_PROJECT }}
-          cat README.md
           
       - name: Exibir conteudo do arquivo .csproj
         run: cat ${{ env.PATH_PROJECT_FILE }}
