@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Version>1.0.0</Version>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>hellogroffdotnet9</ToolCommandName>
+	<Authors>Renato Groffe</Authors>
+	<Company>Groffe</Company>
+	<PackageTags>NuGet;.NET;Tool;Sample</PackageTags>
+	<Description>
+		This is a sample that shows how to use the .NET to create a simple tool.
+	</Description>	  
+  </PropertyGroup>
+
+</Project>
